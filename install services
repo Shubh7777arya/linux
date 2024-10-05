@@ -1,0 +1,16 @@
+1  sudo dnf update
+    2  sudo dnf install nginx php mariadb105-server -y
+    3  sudo service nginx start
+    4  sudo service nginx status
+    5  sudo service php-fpm start
+    6  sudo service php-fpm status
+    7  sudo dnf install php8.3-mysqlnd-8.3 -y
+    8  sudo dnf install php8.3-mysqlnd-8.3.x86_64 -y
+    9  sudo dnf install php8.3-mysqlnd -y
+   10  cd /usr/share/nginx/html/
+   11  sudo nano test.php
+   12  sudo mkdir uploads
+   13  ls -l
+   14  sudo chmod -R 777 uploads/
+   15  ls -l
+   16  history
